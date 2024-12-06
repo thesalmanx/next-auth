@@ -1,8 +1,8 @@
-# Next Auth v5 Salman
+# Next Auth v5 🔐
 
 #### Project is Live at [https://auth.salmann.dev](https://auth.salmann.dev)
 
-This is a repository for Next Auth v5 - Advanced Guide (2024)
+An authentication system built with Next.js 14 and NextAuth.js v5. It includes credentials and OAuth providers, user roles, two-factor authentication, and secure server-side functionality, ideal for modern web applications.
 
 Key Features:
 - 🔐 Next-auth v5 (Auth.js)
@@ -39,34 +39,31 @@ Key Features:
 - 🔄 Change user role in Settings page (for development purposes only)
 
 ### Cloning the repository
-
 ```shell
 git clone https://github.com/thesalmanx/next-auth-v5.git
 ```
 
 ### Install packages
-
 ```shell
 npm i
 ```
 
 ### Setup .env file
-
 ```js
-DATABASE_URL=
-DIRECT_URL=
+DATABASE_URL =
+DIRECT_URL =
 
-AUTH_SECRET=
+AUTH_SECRET =
 
-GITHUB_CLIENT_ID=
-GITHUB_CLIENT_SECRET=
+GITHUB_CLIENT_ID =
+GITHUB_CLIENT_SECRET =
 
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
+GOOGLE_CLIENT_ID =
+GOOGLE_CLIENT_SECRET =
 
-RESEND_API_KEY=
+RESEND_API_KEY =
 
-NEXT_PUBLIC_APP_URL=
+NEXT_PUBLIC_APP_URL =
 ```
 
 ### Setup Prisma
@@ -76,7 +73,12 @@ npx prisma db push
 ```
 
 ### Start the app
-
 ```shell
 npm run dev
 ```
+
+## Database Schema
+![alt text](next-auth-v5-databaseSchema.jpeg)
+
+## Callback Api URLs
+![alt text](callbackapi.png)
