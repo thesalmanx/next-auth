@@ -1,4 +1,4 @@
-# Next Auth v5 salman
+# Next Auth v5
 
 #### Project is Live at [https://auth.salmann.dev](https://auth.salmann.dev)
 
