@@ -1,6 +1,6 @@
 # Next Auth v5 🔐
 
-#### Project is Live at [https://auth.salmann.dev](https://auth.salmann.dev)
+## Project is Live at [https://auth.salmann.dev](https://auth.salmann.dev)
 
 An authentication system built with Next.js 14 and NextAuth.js v5. It includes credentials and OAuth providers, user roles, two-factor authentication, and secure server-side functionality, ideal for modern web applications.
 
